@@ -28,7 +28,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
 @RequestMapping("/escolas")
-public class EscolaController {
+public class ControllerEscola {
     @Autowired
     private EscolaService escolaservice;
     @Autowired
