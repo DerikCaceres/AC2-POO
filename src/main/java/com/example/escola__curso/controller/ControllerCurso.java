@@ -1,10 +1,10 @@
 package com.example.escola__curso.controller;
 
-mport java.util.List;
+import java.util.List;
 
 import com.example.escola__curso.dto.CursoDTO;
-import com.example.escola__curso.curso;
-import com.example.escola__curso.CursoService;
+import com.example.escola__curso.model.curso;
+import com.example.escola__curso.service.CursoService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

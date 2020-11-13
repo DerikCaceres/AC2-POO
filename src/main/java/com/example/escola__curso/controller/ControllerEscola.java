@@ -5,11 +5,11 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 
 import com.example.escola__curso.dto.CursoDTO;
-import com.example.escola__curso.EscolaDTO;
-import com.example.escola__curso.curso;
-import com.example.escola__curso.escola;
-import com.example.escola__curso.CursoService;
-import com.example.escola__curso.EscolaService;
+import com.example.escola__curso.dto.EscolaDTO;
+import com.example.escola__curso.model.curso;
+import com.example.escola__curso.model.escola;
+import com.example.escola__curso.service.CursoService;
+import com.example.escola__curso.service.EscolaService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

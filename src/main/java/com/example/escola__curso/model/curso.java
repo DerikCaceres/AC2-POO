@@ -46,4 +46,11 @@ public class curso {
     public void setTurno(String turno) {
         this.turno = turno;
     }
+
+	public escola getEscola() {
+		return null;
+	}
+
+	public void setEscola(escola escola) {
+	}
 }

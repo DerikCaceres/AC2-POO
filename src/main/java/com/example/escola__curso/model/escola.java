@@ -1,5 +1,7 @@
 package com.example.escola__curso.model;
 
+import java.util.ArrayList;
+
 public class escola {
     private String escola;
     private String endereco;
@@ -66,5 +68,11 @@ public class escola {
         return "escola [codigo=" + codigo + ", cursos=" + cursos + ", endereco=" + endereco + ", escola=" + escola
                 + ", quantcurso=" + quantcurso + "]";
     }
+
+	public void setDiretor(String diretor) {
+	}
+
+	public void setTelefone(String telefone) {
+	}
 
 }
